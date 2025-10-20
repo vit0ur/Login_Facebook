@@ -1,10 +1,10 @@
 import './App.css';
 import {useState, useEffect} from 'react';
-import Header from './Header';
-import Stories from './Stories';
+import Header from './Header.js';
+import Stories from './Stories.js';
 
-import FeedForm from './FeedForm';
-import FeedPost from './FeedPost';
+import FeedForm from './FeedForm.js';
+import FeedPost from './FeedPost.js';
 
 import {db} from './firebase.js'; 
 
